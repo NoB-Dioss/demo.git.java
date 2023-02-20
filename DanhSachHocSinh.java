@@ -2,11 +2,6 @@ import java.util.*;
 
 public class DanhSachHocSinh {
     private ArrayList<HocSinh> danhSach;
-    private float diemTrungBinh;
-
-    public DanhSachHocSinh(ArrayList<HocSinh> danhSach) {
-        this.danhSach = danhSach;
-    }
 
     public DanhSachHocSinh() {
         this.danhSach = new ArrayList<HocSinh>();

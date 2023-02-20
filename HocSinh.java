@@ -26,7 +26,7 @@ public class HocSinh {
         System.out.print("Nhập Đ.hóa: "); this.hoa = sc.nextFloat();
         this.diemTrungBinh = (this.toan + this.ly + this.hoa) / 3;
     }
-    public void xuatHS(){
+    public void xuatHS() {
         System.out.println("HỌC SINH: " +
                 "[ ID: " + iD +
                 " - Tên: " + name +
@@ -35,53 +35,19 @@ public class HocSinh {
                 " - Đ.hóa: " + hoa +
                 " - Đ.trung bình: " + diemTrungBinh + " ]");
     }
-    public String getiD() {
-        return iD;
-    }
-
-    public void setiD(String iD) {
-        this.iD = iD;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public float getToan() {
         return toan;
     }
-
-    public void setToan(float toan) {
-        this.toan = toan;
-    }
-
     public float getLy() {
         return ly;
     }
-
-    public void setLy(float ly) {
-        this.ly = ly;
-    }
-
     public float getHoa() {
         return hoa;
     }
-
-    public void setHoa(float hoa) {
-        this.hoa = hoa;
-    }
-
     public float getDiemTrungBinh() {
         return diemTrungBinh;
     }
 
-    public void setDiemTrungBinh(float diemTrungBinh) {
-        this.diemTrungBinh = diemTrungBinh;
-    }
 
 }
 

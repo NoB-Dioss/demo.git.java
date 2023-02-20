@@ -4,9 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         DanhSachHocSinh danhSach = new DanhSachHocSinh();
-        int luaChon = 0;
-        int tuongTac = 0;
-        int rs = 0;
+        int luaChon = 0,rs = 0,tuongTac = 0;
         do{
             System.out.println("\nĐây là chương trình \"QUẢN LÝ SINH VIÊN\"");
             System.out.println("Bạn có muốn tương tác với chương trình ?\n"
